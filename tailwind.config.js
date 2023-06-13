@@ -14,6 +14,9 @@ module.exports = {
   plugins: [require("daisyui")],
   daisyui: {
     themes: ['emerald']
-  }
+  },
+  safelist: [
+    'grid-cols-2',
+  ]
 }
 
